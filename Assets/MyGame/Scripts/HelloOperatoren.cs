@@ -32,6 +32,27 @@ public class HelloOperatoren : MonoBehaviour
             Debug.Log("The first Number given is higher than the second Number given");
         }
 
+        if (zahl1 < zahl2)
+        {
+            Debug.Log("Do is wos foisch.");
+
+        }
+
+        else if (zahl1 > zahl2)
+            {
+                Debug.Log("Jz bassts wieder.");
+            }
+
+        if (zahl1 == zahl2)
+        {
+            Debug.Log("Dieser Vergleich ergibt keinen Sinn.");
+        }
+
+        if (wert1 && wert2)
+        {
+            Debug.Log("Das Ergebnis muss falsch sein.");
+        }
+
         int a, b, c;
         a = 7;
         b = a;
